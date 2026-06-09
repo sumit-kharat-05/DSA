@@ -47,7 +47,7 @@ cout<< !(5 > 2) << endl;
 cout<< ((5 > 2) || (5 > 3)) << endl;
 cout<< ((5 > 2) && (5 > 3)) << endl;
 
-//Day 02 Que 01 (Sum of Two Numbers)//
+//DSA Day 02 Que 01 (Sum of Two Numbers)//
 
 int num1, num2;
 cout<<"Enter First Number :";
