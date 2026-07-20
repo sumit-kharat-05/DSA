@@ -12,7 +12,7 @@
 //         cout<<marks[i]<<endl;
 //     }
 
-    // Que1:- Find Smallest And Largest Number in Array//
+// Que1:- Find Smallest And Largest Number in Array//
 //     int nums[]={5,15,22,1,-15,-24};
 //     int size=6;
 //     int smallest = INT_MAX;
@@ -31,20 +31,16 @@
 //     cout<<"Smallest: "<<smallest<<endl;
 //     cout<<"Largest:"<<largest<<endl;
 
-
-
 //     return 0;
 // }
-
-
 
 // #include<iostream>
 // using namespace std;
 
 // int main()
 // {
-   
-    // Que2:- Find Smallest And Largest Number in Array with Index Not Value//
+
+// Que2:- Find Smallest And Largest Number in Array with Index Not Value//
 //     int nums[]={5,15,22,1,-15,-24};
 //     int size=6;
 //     int smallestIndex = INT_MAX;
@@ -62,15 +58,12 @@
 //     }
 //     cout<<"SmallestIndex: "<<smallestIndex<<endl;
 //     cout<<"LargestIndex:"<<largestIndex<<endl;
-    
+
 //     return 0;
 // }
 
-
-
 // #include<iostream>
 // using namespace std;
-
 
 // Que3:- LinearSearch In Array (Part 1)//
 // int linearSearch(int arr[], int sz,int target)
@@ -87,7 +80,7 @@
 
 // int main()
 // {
-    // Que3:- LinearSearch In Array (Part 2)//
+// Que3:- LinearSearch In Array (Part 2)//
 //     int arr[] = {4,2,7,8,1,2,5};
 //     int sz=7;
 //     int target = 8;
@@ -97,20 +90,17 @@
 //      return 0;
 // }
 
-
-
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-
-//Que4:- Swapping Two Numbers In Array (Part 1)//
+// Que4:- Swapping Two Numbers In Array (Part 1)//
 void reverseArray(int arr[], int sz)
 {
-    int start = 0 , end = sz-1;
+    int start = 0, end = sz - 1;
 
-    while(start < end)
+    while (start < end)
     {
-        swap(arr[start],arr[end]);
+        swap(arr[start], arr[end]);
         start++;
         end--;
     }
@@ -119,16 +109,16 @@ void reverseArray(int arr[], int sz)
 int main()
 {
 
-  //Que4:- Swapping Two Numbers In Array (Part 2)//
-    int arr[] = {4,2,7,8,1,2,5};
+    // Que4:- Swapping Two Numbers In Array (Part 2)//
+    int arr[] = {4, 2, 7, 8, 1, 2, 5};
     int sz = 7;
 
-    reverseArray(arr,sz);
+    reverseArray(arr, sz);
 
-    for(int i=0; i<sz; i++)
+    for (int i = 0; i < sz; i++)
     {
-        cout<<arr[i]<<"";
+        cout << arr[i] << "";
     }
-    cout<<endl;
+    cout << endl;
     return 0;
 }
