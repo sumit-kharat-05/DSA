@@ -1,6 +1,6 @@
 //Kadanas Algorithm//
 
-//Minimum Subarray//
+// Subarray//
 
 #include <iostream>
 #include <vector>
